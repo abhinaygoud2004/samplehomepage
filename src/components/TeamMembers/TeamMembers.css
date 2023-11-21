@@ -1,0 +1,26 @@
+/* Add this CSS to hide icons by default and show them on hover */
+.hover-icons {
+    display: none;
+    /* background-color; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .card:hover .hover-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    background-color:#685ffc;
+    border-radius: 50%; /* Make the icon circular */
+    color: #333; /* Customize the color */
+    padding: 10px; /* Optional: Add padding for better spacing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
